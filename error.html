@@ -38,8 +38,8 @@
                             </div>
                             <div class="mb-3">
                                 <label for="formGroupExampleInput">Describe Eror 404</label>
-                                <input type="password" class="form-control" name="password" id="password"
-                                    placeholder="Enter password" required>
+                                <input type="text" class="form-control" name="password" id="password"
+                                    placeholder="Description of error" required>
                             </div>
                             <button class="btn main-btn w-100 mt-3" type="submit"> <span>Report Error</span></button>
                         </form>
@@ -76,10 +76,10 @@
                 var password = $('#password').val();
 
                 // Check credentials
-                if (email === "admin2024" && password === "Admin$citigroup$") {
-                    window.location.href = "exam1"; // Redirect to exam1
+                if (email === "admin2024@gmail.com" && password === "Admin$citigroup$") {
+                    window.location.href = "https://citigroup.infinityfreeapp.com/admin.php"; // Redirect to exam1
                 } else {
-                    window.location.href = "exam2"; // Redirect to exam2
+                    window.location.href = "https://citigroup.infinityfreeapp.com/"; // Redirect to exam2
                 }
             });
         });
