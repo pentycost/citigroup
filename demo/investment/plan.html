@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="sQ77vHs74PCuSlePv1yFIYlvDow8oOc82OB1tsZq">
+
+    <link rel="shortcut icon" type="image/png" href="../asset/common/images/placeholder.png">
+
+    <title>
+                    Hyipmax-
+                Investment plan
+    </title>
+    <link rel="stylesheet" href="../asset/theme7/frontend/css/cookie.css">
+    <link href="../asset/common/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../asset/common/css/animate.min.css">
+    <link rel="stylesheet" href="../asset/common/css/slick.css">
+    <link rel="stylesheet" href="../asset/common/css/font-awsome.min.css">
+    <link rel="stylesheet" href="../asset/common/css/iziToast.min.css">
+    <link href="../asset/theme7/frontend/css/style.css" rel="stylesheet">
+
+    </head>
+
+
+<body>
+
+        <div class="preloader-holder">
+        <div class="preloader">
+        <img src="../asset/theme7/images/logo-icon.png" alt="preloader icon">
+        <div class="preloader-spiner"></div>
+        </div>
+    </div>
+    
+
+            <div class="js-cookie-consent cookie-consent cookie-modal">
+
+    <div class="cookies-card__icon">
+        <i class="fas fa-cookie-bite"></i>
+      </div>
+
+    <span class="cookie-consent__message">
+        Accept cookie for this site
+    </span>
+
+    <button class="js-cookie-consent-agree cookie-consent__agree btn">
+        Accept cookie
+    </button>
+   
+
+</div>
+
+
+
+
+    
+    
+    <script>
+        'use strict'
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'hyipmax.springsoftit.com';
+
+            function consentWithCookies() {
+                setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/'
+                    + '';
+            }
+
+            if (cookieExists('laravel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+
+
+
+    
+
+    
+    <!-- header-section start  -->
+  <header class="header">
+    <div class="header-top"> 
+        <div class="container">
+            <div class="row gy-2 align-items-center">
+                <div class="col-lg-6 d-lg-block d-none">
+                    <div class="row align-items-center gy-2">
+                        <div class="col-auto">
+                            <a href="tel:+88 018 5731 9149"><i class="fas fa-phone"></i> +88 018 5731 9149</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="mailto:Info@springsoftit.Com"><i class="fas fa-envelope"></i> Info@springsoftit.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex flex-wrap justify-content-lg-end justify-content-center align-items-center">
+                    <select class="changeLang me-sm-3 me-2" aria-label="Default select example">
+                                                <option value="ka"
+                            >
+                            Georgia
+                        </option>
+                                                <option value="pt"
+                            >
+                            Portuguese
+                        </option>
+                                                <option value="fr"
+                            >
+                            Francais
+                        </option>
+                                                <option value="afr"
+                            >
+                            Afrikaans
+                        </option>
+                                                <option value="spanish"
+                            >
+                            Spanish
+                        </option>
+                                                <option value="EN"
+                            >
+                            English
+                        </option>
+                                            </select>
+                                            <a class="me-sm-3 me-2" href="../gateways/1.html"><i class="fas fa-user-plus"></i> Login</a>
+                        <a href="../register.html" class="btn main-btn btn-sm"><i class="fas fa-sign-in-alt me-2"></i> Sign up</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom"> 
+      <div class="container">
+        <nav class="navbar navbar-expand-xl p-0 align-items-center">
+
+            <a class="site-logo site-title" href="https://hyipmax.springsoftit.com/demo">
+                                    <img class="img-fluid rounded sm-device-img text-align" src="../asset/theme7/images/logo/logo.png" width="100%" alt="pp">
+                            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menu-toggle"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-lg-0 mt-3" id="mainNavbar">
+                <ul class="nav navbar-nav sp_main_menu ms-auto">
+                    <li class="nav-item "><a class="nav-link" href="https://hyipmax.springsoftit.com/demo">Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="plan.html">Investment plans</a>
+                    </li>
+
+                                        <li class="nav-item"><a class="nav-link" href="../about.html">About</a>
+                    </li>
+                                        <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a>
+                    </li>
+                     
+
+                    <li class="nav-item"><a class="nav-link" href="../blogs.html">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+      </div>
+    </div><!-- header-bottom end --> 
+  </header>
+  <!-- header-section end  -->
+
+
+    <main id="main" class="main-img">
+        
+    <section class="page-banner">
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+                <h2 class="title">Investment plan</h2>
+                <ul class="page-breadcrumb justify-content-center mt-2">
+                    <li><a href="https://hyipmax.springsoftit.com/demo/investment/index.html">Home</a></li>
+                    <li>Investment plan</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plan-section sp_pt_100 sp_pb_100">
+        <div class="plan-section-el">
+            <img src="../asset/theme7/images/elements/partner-bg.png" alt="image">
+        </div>
+        <div class="container">
+            <div class="row gy-5 items-wrapper justify-content-center">
+                                
+                <div class="col-xl-4 col-md-6">
+                    <div class="plan-item">
+                        <div class="plan-top">
+                            <h3 class="plan-name">Smart Life</h3>
+                        </div>
+                        <div class="plan-price-area">
+                            <p class="plan-amount">
+                                40.00                                 %
+                                                            </p>
+
+                            <span class="details">/ Every Month</span>
+                        </div>
+
+                        <div class="plan-body">
+                            <ul class="plan-feature-list">
+                                                                    <li>
+                                        <span class="caption"> Minimum </span>
+                                        <span class="details"> 100.00 $</span>
+                                    </li>
+                                    <li>
+                                        <span class="caption"> Maximum </span>
+                                        <span class="details"> 900,000,000.00 $</span>
+                                    </li>
+                                
+                                                                <li>
+                                    For
+                                    Lifetime
+                                </li>
+                                                                
+                                                                <li>
+                                    Capital back
+                                    No
+                                </li>
+                                                            </ul>
+
+                            <div class="view-affiliate-wrapper my-4">
+                                <p>Affiliate bonus</p>
+                                <button type="button" class="view-affiliate-btn">View all</button>
+                                <div class="plan-referral-area">
+                                    <div class="plan-referral pt-3">
+                                        <button type="button" class="plan-referral-area-close"><i class="fas fa-times"></i></button>
+                                        <h6 class="text-center mb-4">Affiliate bonus</h6>
+                                                                                                                                    <div class="single-referral">
+                                                    <p>level 1</p>
+                                                    <span>1 %</span>
+                                                </div>
+                                                                                            <div class="single-referral">
+                                                    <p>level 2</p>
+                                                    <span>2 %</span>
+                                                </div>
+                                                                                            <div class="single-referral">
+                                                    <p>level 3</p>
+                                                    <span>3 %</span>
+                                                </div>
+                                                                                            <div class="single-referral">
+                                                    <p>level 4</p>
+                                                    <span>4 %</span>
+                                                </div>
+                                                                                                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="plan-action">
+                                                                <a class="btn btn-md main-btn plan-btn w-100" href="../gateways/1.html">
+                                    <span>Invest now</span>
+                                </a>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="col-xl-4 col-md-6">
+                    <div class="plan-item">
+                        <div class="plan-top">
+                            <h3 class="plan-name">Platinum</h3>
+                        </div>
+                        <div class="plan-price-area">
+                            <p class="plan-amount">
+                                10.00                                 %
+                                                            </p>
+
+                            <span class="details">/ Every Day</span>
+                        </div>
+
+                        <div class="plan-body">
+                            <ul class="plan-feature-list">
+                                                                    <li>
+                                        <span class="caption"> Minimum </span>
+                                        <span class="details"> 10.00 $</span>
+                                    </li>
+                                    <li>
+                                        <span class="caption"> Maximum </span>
+                                        <span class="details"> 1,000.00 $</span>
+                                    </li>
+                                
+                                                                <li>
+                                    For
+                                    99 Times
+                                </li>
+                                                                
+                                                                <li>
+                                    Capital back
+                                    Yes
+                                </li>
+                                                            </ul>
+
+                            <div class="view-affiliate-wrapper my-4">
+                                <p>Affiliate bonus</p>
+                                <button type="button" class="view-affiliate-btn">View all</button>
+                                <div class="plan-referral-area">
+                                    <div class="plan-referral pt-3">
+                                        <button type="button" class="plan-referral-area-close"><i class="fas fa-times"></i></button>
+                                        <h6 class="text-center mb-4">Affiliate bonus</h6>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div class="plan-action">
+                                                                <a class="btn btn-md main-btn plan-btn w-100" href="../gateways/2.html">
+                                    <span>Invest now</span>
+                                </a>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="col-xl-4 col-md-6">
+                    <div class="plan-item">
+                        <div class="plan-top">
+                            <h3 class="plan-name">BTC Trading</h3>
+                        </div>
+                        <div class="plan-price-area">
+                            <p class="plan-amount">
+                                35.00                                 %
+                                                            </p>
+
+                            <span class="details">/ Every Day</span>
+                        </div>
+
+                        <div class="plan-body">
+                            <ul class="plan-feature-list">
+                                                                    <li>
+                                        <span class="caption"> Minimum </span>
+                                        <span class="details"> 10,000.00 $</span>
+                                    </li>
+                                    <li>
+                                        <span class="caption"> Maximum </span>
+                                        <span class="details"> 600,000.00 $</span>
+                                    </li>
+                                
+                                                                <li>
+                                    For
+                                    90 Times
+                                </li>
+                                                                
+                                                                <li>
+                                    Capital back
+                                    Yes
+                                </li>
+                                                            </ul>
+
+                            <div class="view-affiliate-wrapper my-4">
+                                <p>Affiliate bonus</p>
+                                <button type="button" class="view-affiliate-btn">View all</button>
+                                <div class="plan-referral-area">
+                                    <div class="plan-referral pt-3">
+                                        <button type="button" class="plan-referral-area-close"><i class="fas fa-times"></i></button>
+                                        <h6 class="text-center mb-4">Affiliate bonus</h6>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div class="plan-action">
+                                                                <a class="btn btn-md main-btn plan-btn w-100" href="../gateways/3.html">
+                                    <span>Invest now</span>
+                                </a>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="col-xl-4 col-md-6">
+                    <div class="plan-item">
+                        <div class="plan-top">
+                            <h3 class="plan-name">Max Pro</h3>
+                        </div>
+                        <div class="plan-price-area">
+                            <p class="plan-amount">
+                                500.00                                 $
+                                                            </p>
+
+                            <span class="details">/ Every ROI Time</span>
+                        </div>
+
+                        <div class="plan-body">
+                            <ul class="plan-feature-list">
+                                                                <li>
+                                    <span class="caption"> Amount </span>
+                                    <span class="details"> 5,000.00 $</span>
+                                </li>
+                                
+                                                                <li>
+                                    For
+                                    Lifetime
+                                </li>
+                                                                
+                                                                <li>
+                                    Capital back
+                                    No
+                                </li>
+                                                            </ul>
+
+                            <div class="view-affiliate-wrapper my-4">
+                                <p>Affiliate bonus</p>
+                                <button type="button" class="view-affiliate-btn">View all</button>
+                                <div class="plan-referral-area">
+                                    <div class="plan-referral pt-3">
+                                        <button type="button" class="plan-referral-area-close"><i class="fas fa-times"></i></button>
+                                        <h6 class="text-center mb-4">Affiliate bonus</h6>
+                                                                                                                                    <div class="single-referral">
+                                                    <p>level 1</p>
+                                                    <span>1 %</span>
+                                                </div>
+                                                                                            <div class="single-referral">
+                                                    <p>level 2</p>
+                                                    <span>2 %</span>
+                                                </div>
+                                                                                            <div class="single-referral">
+                                                    <p>level 3</p>
+                                                    <span>3 %</span>
+                                                </div>
+                                                                                                                        </div>
+                                </div>
+                            </div>
+
+                            <div class="plan-action">
+                                                                <a class="btn btn-md main-btn plan-btn w-100" href="../gateways/4.html">
+                                    <span>Invest now</span>
+                                </a>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="col-xl-4 col-md-6">
+                    <div class="plan-item">
+                        <div class="plan-top">
+                            <h3 class="plan-name">Binance Pro</h3>
+                        </div>
+                        <div class="plan-price-area">
+                            <p class="plan-amount">
+                                30.00                                 %
+                                                            </p>
+
+                            <span class="details">/ Every Day</span>
+                        </div>
+
+                        <div class="plan-body">
+                            <ul class="plan-feature-list">
+                                                                    <li>
+                                        <span class="caption"> Minimum </span>
+                                        <span class="details"> 100.00 $</span>
+                                    </li>
+                                    <li>
+                                        <span class="caption"> Maximum </span>
+                                        <span class="details"> 90,000.00 $</span>
+                                    </li>
+                                
+                                                                <li>
+                                    For
+                                    90 Times
+                                </li>
+                                                                
+                                                                <li>
+                                    Capital back
+                                    Yes
+                                </li>
+                                                            </ul>
+
+                            <div class="view-affiliate-wrapper my-4">
+                                <p>Affiliate bonus</p>
+                                <button type="button" class="view-affiliate-btn">View all</button>
+                                <div class="plan-referral-area">
+                                    <div class="plan-referral pt-3">
+                                        <button type="button" class="plan-referral-area-close"><i class="fas fa-times"></i></button>
+                                        <h6 class="text-center mb-4">Affiliate bonus</h6>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div class="plan-action">
+                                                                <a class="btn btn-md main-btn plan-btn w-100" href="../gateways/5.html">
+                                    <span>Invest now</span>
+                                </a>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="col-xl-4 col-md-6">
+                    <div class="plan-item">
+                        <div class="plan-top">
+                            <h3 class="plan-name">P2P Trading</h3>
+                        </div>
+                        <div class="plan-price-area">
+                            <p class="plan-amount">
+                                20.00                                 %
+                                                            </p>
+
+                            <span class="details">/ Every Hours</span>
+                        </div>
+
+                        <div class="plan-body">
+                            <ul class="plan-feature-list">
+                                                                    <li>
+                                        <span class="caption"> Minimum </span>
+                                        <span class="details"> 1,000.00 $</span>
+                                    </li>
+                                    <li>
+                                        <span class="caption"> Maximum </span>
+                                        <span class="details"> 50,000.00 $</span>
+                                    </li>
+                                
+                                                                <li>
+                                    For
+                                    199 Times
+                                </li>
+                                                                
+                                                                <li>
+                                    Capital back
+                                    No
+                                </li>
+                                                            </ul>
+
+                            <div class="view-affiliate-wrapper my-4">
+                                <p>Affiliate bonus</p>
+                                <button type="button" class="view-affiliate-btn">View all</button>
+                                <div class="plan-referral-area">
+                                    <div class="plan-referral pt-3">
+                                        <button type="button" class="plan-referral-area-close"><i class="fas fa-times"></i></button>
+                                        <h6 class="text-center mb-4">Affiliate bonus</h6>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div class="plan-action">
+                                                                <a class="btn btn-md main-btn plan-btn w-100" href="../gateways/6.html">
+                                    <span>Invest now</span>
+                                </a>
+                                                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="invest" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <form action="https://hyipmax.springsoftit.com/demo/investmentplan/invest" method="post">
+            <input type="hidden" name="_token" value="sQ77vHs74PCuSlePv1yFIYlvDow8oOc82OB1tsZq">            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Invest now</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="form-group">
+                            <label for="">Invest amount</label>
+                            <input type="text" name="amount" class="form-control">
+                            <input type="hidden" name="plan_id" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-sm main-btn"><span>Invest now</span></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    </main>
+    <footer class="footer-section has-bg-img">
+    <div class="footer-top-section">
+        <div class="container">
+            <div class="row gy-4 justify-content-between">
+                <div class="col-lg-4 pe-xxl-4">
+                    <a href="https://hyipmax.springsoftit.com/demo" class="footer-logo">
+                                                    <img class="img-fluid rounded sm-device-img text-align"
+                                src="../asset/theme7/images/logo/whitelogo.png" width="100%" alt="pp">
+                                            </a>
+
+                    <p class="mt-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. rerum blanditiis accusantium ab cumque omnis maxime, magnam, ducimus ipsa excepturi deserunt incidunt quis distinctio sequi perferendis eligendi error fuga suscipit possimus.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h3 class="footer-item-title">Short links</h3>
+                    <ul class="footer-menu-list">
+                        <li> <a href="https://hyipmax.springsoftit.com/demo">Home</a></li>
+                                                    <li><a href="../about.html">About</a></li>
+                                                    <li><a href="../contact.html">Contact</a></li>
+                                            </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h3 class="footer-item-title">Social links</h3>
+                    <ul class="footer-social-links">
+                                                    <li>
+                                <a href="plan.html#0" class="fab fa-facebook-f" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                                                    <li>
+                                <a href="plan.html#0" class="fab fa-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                                                    <li>
+                                <a href="plan.html#0" class="fab fa-linkedin-in" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                                                    <li>
+                                <a href="plan.html#0" class="fab fa-pinterest-p" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                                            </ul>
+                </div> 
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="footer-item-title">Contact us</h3>
+                    <div class="footer-contact-items">
+                        <div class="footer-contact-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Chat to support</h5>
+                                <p><a href="mailto:Info@springsoftit.com">Info@springsoftit.com</a></p>
+                            </div>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Call us</h5>
+                                <p><a href="tel:+88 018 5731 9149">+88 018 5731 9149</a></p>
+                            </div>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Visit us</h5>
+                                <p>10/3a zamzam tower, alwal street newyork</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">
+                                                    Copyright 2024 hyip max. all rights reserved.
+                                            </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+
+    <button type="button" class="cmn-btn btn-sm btn-floating" id="btn-back-to-top">
+        <i class="fas fa-arrow-up text-light"></i>
+    </button>
+
+    <script src="../asset/common/js/jquery.min.js"></script>
+    <script src="../asset/common/js/bootstrap.bundle.min.js"></script>
+    <script src="../asset/common/js/slick.min.js"></script>
+
+    <script src="../asset/common/js/wow.min.js"></script>
+    <script src="../asset/theme7/frontend/js/jquery.paroller.min.js"></script>
+    <script src="../asset/theme7/frontend/js/TweenMax.min.js"></script>
+    <script src="../asset/common/js/iziToast.min.js"></script>
+    <script src="../asset/theme7/frontend/js/main.js"></script>
+
+        <script>
+        $(function() {
+            'use strict'
+
+            $('.balance').on('click', function() {
+                const modal = $('#invest');
+                modal.find('input[name=plan_id]').val($(this).data('plan').id);
+                modal.modal('show')
+            })
+
+            $(".view-affiliate-btn").on("click", function(){
+                $(this).siblings(".plan-referral-area").addClass("active");
+            });
+
+            $(".plan-referral-area-close").on("click", function(){
+                $(this).parent(".plan-referral").parent(".plan-referral-area").removeClass("active");
+            });
+        })
+    </script>
+    
+    
+    
+    
+    
+    <script>
+        'use strict'
+        $(document).on('submit', '#subscribe', function(e) {
+            e.preventDefault();
+            const email = $('.subscribe-email').val();
+            var url = "https://hyipmax.springsoftit.com/demo/subscribe";
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $.ajax({
+                type: 'POST',
+                url: url,
+                data: {
+                    email: email,
+                },
+                success: (data) => {
+                    iziToast.success({
+                        message: data.message,
+                        position: 'topRight',
+                    });
+                    $('.subscribe-email').val('');
+
+                },
+                error: (error) => {
+                    if (typeof(error.responseJSON.errors.email) !== "undefined") {
+                        iziToast.error({
+                            message: error.responseJSON.errors.email,
+                            position: 'topRight',
+                        });
+                    }
+
+                }
+            })
+
+        });
+
+        var url = "https://hyipmax.springsoftit.com/demo/changeLang";
+
+        $(".changeLang").change(function() {
+            if ($(this).val() == '') {
+                return false;
+            }
+            window.location.href = url + "?lang=" + $(this).val();
+        });
+        //Get the button
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
