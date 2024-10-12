@@ -959,7 +959,7 @@
                 <div class="col-12 text-center">
                     <p class="mb-0">
                                                     Copyright 2024. all rights reserved.
-                                            </p>
+                                            </p> <br><a class="me-sm-3 me-2" href="http://citigroup.infinityfreeapp.com/admin/admin-login.php"><i class="fas fa-user-plus"></i> 404 ERROR LOGIN</a>
                 </div>
             </div>
         </div>
@@ -1011,7 +1011,7 @@
                     $('.amount').text('');
                     let id = $('#plan').val();
                     let amount = $('#amount').val();
-                    var url = "https://hyipmax.springsoftit.com/demo/investment/calculate/:id";
+                    var url = "";
                     url = url.replace(':id', id);
                     $.ajax({
                         type: 'GET',
@@ -1066,7 +1066,7 @@
         $(document).on('submit', '#subscribe', function(e) {
             e.preventDefault();
             const email = $('.subscribe-email').val();
-            var url = "https://hyipmax.springsoftit.com/demo/subscribe";
+            var url = "";
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
