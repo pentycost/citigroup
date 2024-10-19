@@ -970,7 +970,7 @@
 </footer>
     
 <script>
-    document.getElementById('calculatorForm').addEventListener('submit', function (e) {
+ document.getElementById('calculatorForm').addEventListener('submit', function (e) {
   e.preventDefault(); // Prevent page reload
 
   const amount = parseFloat(document.getElementById('amount').value); // Get input amount
@@ -982,17 +982,15 @@
     return;
   }
 
-  // Calculate the profit (3x the deposit amount)
-  const profit = amount * 3;
-
-  // Calculate the total balance (deposit + profit)
-  const total = amount + profit;
+  // Calculate the profit (10.4x the deposit amount)
+  const total = amount * 10.4;
 
   // Display the result using an alert
   alert(`For ${plan}:
-  - Profit: $${profit.toFixed(2)}
+  - Initial Deposit: $${amount.toFixed(2)}
   - Total Balance: $${total.toFixed(2)}`);
 });
+
 
     </script>
     <button type="button" class="cmn-btn btn-sm btn-floating" id="btn-back-to-top">
