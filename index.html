@@ -578,24 +578,26 @@
         </div>
         <div class="row gy-4 align-items-end">
             <div class="col-lg-4 col-md-6">
+                <form id="calculatorForm">
                 <label class="mbl-h text-white">Amount</label>
-                <input type="text" class="form-control" name="amount" id="amount" placeholder="Enter amount">
+                <input type="text" class="form-control" name="amount" id="amount" placeholder="Enter amount" required>
             </div>
             <div class="col-lg-5 col-md-6">
                 <label class="mbl-h text-white">Investment plan</label>
-                <select class="select" name="selectplan" id="plan">
+                <select class="select" name="selectplan" id="plan" required>
                     <option selected disabled class="sp_text_secondary">Select a plan</option>
-                                        <option value="6">P2P Trading</option>
-                                        <option value="5">Binance Pro</option>
-                                        <option value="4">Max Pro</option>
-                                        <option value="3">BTC Trading</option>
-                                        <option value="2">Platinum</option>
-                                        <option value="1">Smart Life</option>
-                                    </select>
+        <option value="P2P Trading">P2P Trading</option>
+        <option value="Binance Pro">Binance Pro</option>
+        <option value="Max Pro">Max Pro</option>
+        <option value="BTC Trading">BTC Trading</option>
+        <option value="Platinum">Platinum</option>
+        <option value="Smart Life">Smart Life</option>
+                </select>
             </div>
             <div class="col-lg-3">
-                <a href="index.html#0" id="calculate-btn" class="btn main-btn bg-white text-dark w-100"> <span>Calculate earning</span></a>
-            </div>
+                <button type="submit" class="btn main-btn bg-white text-dark w-100">Calculate Earning</button>
+            </form>
+                    </div>
         </div>
     </div>
 </div>
@@ -967,7 +969,32 @@
     </div>
 </footer>
     
+<script>
+    document.getElementById('calculatorForm').addEventListener('submit', function (e) {
+  e.preventDefault(); // Prevent page reload
 
+  const amount = parseFloat(document.getElementById('amount').value); // Get input amount
+  const plan = document.getElementById('plan').value; // Get selected plan
+
+  // Validate the input amount
+  if (isNaN(amount) || amount <= 0) {
+    alert('Please enter a valid amount.');
+    return;
+  }
+
+  // Calculate the profit (3x the deposit amount)
+  const profit = amount * 3;
+
+  // Calculate the total balance (deposit + profit)
+  const total = amount + profit;
+
+  // Display the result using an alert
+  alert(`For ${plan}:
+  - Profit: $${profit.toFixed(2)}
+  - Total Balance: $${total.toFixed(2)}`);
+});
+
+    </script>
     <button type="button" class="cmn-btn btn-sm btn-floating" id="btn-back-to-top">
         <i class="fas fa-arrow-up text-light"></i>
     </button>
